@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Cellpadding provide the space between border and content for each cell -->
+    <!--CellSpacing provide space between each cell-->
+    <!-- Width provide the width for each cell -->
+    <!-- Height provide the height for each cell -->
+    <!-- Align set the table position Horizontly (left,center,right) -->
+    <!-- frame provide or set the outer border of tbale (box,above,below,hsides,vsides) -->
+    <!-- rules="all" can be provide or set the inner border of the cells (none,rows,cols,all)-->
+    <table border="black" cellpadding="10" cellspacing="5" width="500" height="350" align="Center" frame="box">
+        <caption>Food Menu</caption>
+        <!-- Table Header (Semantic Tag) -->
+        <thead  bgcolor="yellow">
+            <tr>
+                <!-- valign set the content in(middle, top, bottom) -->
+                <!-- rowspan can be used to merged many rows in single row-->
+                <!-- colspan can be used to merged many cols in single col-->
+                <th rowspan="2" valign="top">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body (Semantic Tag) -->
+        <!-- align set the content in (center, right, left) -->
+        <tbody bgcolor="blue">
+            <tr>
+                <td align="center">Chips</td>
+                <td>20</td>
+                <td>0.14</td>
+            </tr>
+            <tr bgcolor="red">
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.10</td>
+            </tr>
+            <tr>
+                <td>Coffee</td>
+                <td>15</td>
+                <td>0.12</td>
+            </tr>
+            <tr>
+                <td bgcolor="green">Chai</td>
+                <td>12</td>
+                <td>0.10</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer (Semantic Tag) -->
+        <tfoot>
+            <tr>
+                <td bgcolor="cyan">TotalPrice</td>
+                <td>59</td>
+                <td>1.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
