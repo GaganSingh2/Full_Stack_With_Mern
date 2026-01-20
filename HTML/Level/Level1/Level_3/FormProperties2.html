@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/action">
+        <!-- Label tag is used to connect the input tag with for and id value -->
+        <div>
+            <label for="username">UserName:</label>
+            <input type="text" placeholder="enter name" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="enter password" id="password" name="password">
+        </div>
+
+
+        <fieldset>
+            <legend>Subject(CheckBox)</legend>
+            <!-- In checkbox we select more then one option -->
+            <div>
+                <input type="checkbox" name="sub" id="math" value="math" checked>
+                <label for="math">Math</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="sub" id="eng" value="english">
+                <label for="eng">English</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="sub" id="hindi" value="hindi">
+                <label for="hindi">Hindi</label>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender(RadioButton)</legend>
+            <!-- In Radio Button we select one one option -->
+            <div>
+                <input type="radio" name="gen" id="male" value="male" checked>
+                <label for="male">Male</label>
+            </div>
+
+            <div>
+                <input type="radio" name="gen" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div>
+                <input type="radio" name="gen" id="transgender" value="transgender">
+                <label for="transgender">Transgender</label>
+            </div>
+            
+        </fieldset>
+
+        <!-- Submit Info -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
