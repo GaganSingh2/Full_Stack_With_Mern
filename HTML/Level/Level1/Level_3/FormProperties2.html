@@ -60,6 +60,8 @@
             </div>
             
         </fieldset>
+
+        <!-- Select Options -->
         <div>
             <label for="profession">Choose Your Profession:</label>
             <select name="profession" id="profession">
@@ -68,6 +70,13 @@
                 <option value="dev">Developer</option>
             </select>
         </div>
+
+        <!-- Range -->
+         <div>
+            <!-- min means initial value and max is maximum value, step means it increase the value by step size, value means set the default value in range -->
+            <input type="range" name="vol" id="volume" min="0" max="100" step="10" value="70">
+            <label for="volume">Base</label>
+         </div>
         <!-- Submit Info -->
         <button type="submit">Submit</button>
     </form>
