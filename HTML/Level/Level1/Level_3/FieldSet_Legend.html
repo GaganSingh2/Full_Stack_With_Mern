@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <!-- FieldSet: with the help of represnt a set of group under a common name and border. to provide common name we use legend in the fieldset -->
+        <fieldset>
+            <legend>Enable FieldSet(Changable)</legend>
+            <!-- In checkbox we select more then one option -->
+            <div>
+                <input type="checkbox" name="sub" id="math" value="math" checked>
+                <label for="math">Math</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="sub" id="eng" value="english">
+                <label for="eng">English</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="sub" id="hindi" value="hindi">
+                <label for="hindi">Hindi</label>
+            </div>
+            
+        </fieldset>
+
+        <hr>
+        <!-- Disabled field data are submited when we click the submit button -->
+         <fieldset disabled>
+            <legend>Disable FieldSet(Not Changable)</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" value="Gagan">   
+            </div>
+
+            <div>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass" value="@1234">   
+            </div>
+            
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
