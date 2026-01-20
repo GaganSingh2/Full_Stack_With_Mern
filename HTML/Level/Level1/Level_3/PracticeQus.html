@@ -90,6 +90,43 @@
 
         <button>Submit</button>
     </form>
+
+    <hr>
+
+    <!-- Q3)Recreate the following form using HTML -->
+    <h1>Feedback Form</h1>
+    <form action="/server">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="nm" id="name" placeholder="Write your name">
+        </div><br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="mail" id="email" placeholder="Write your email">
+        </div><br>
+
+        <div>
+            <label for="msg">Message: </label><br>
+            <textarea name="msg" id="msg" rows="4" cols="25"></textarea>
+        </div><br>
+
+        <div>
+            Rate us our of 5: <br>
+            <input type="radio" name="point" id="1">
+            <label for="1">1</label><br>
+            <input type="radio" name="point" id="2">
+            <label for="2">2</label><br>
+             <input type="radio" name="point" id="3">
+            <label for="3">3</label><br>
+             <input type="radio" name="point" id="4">
+            <label for="4">4</label><br>
+             <input type="radio" name="point" id="5">
+            <label for="5">5</label>
+        </div><br>
+
+        <button>Send your message!</button>
+    </form>
 </body>
 
 </html>
