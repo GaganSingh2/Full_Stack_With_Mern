@@ -1,0 +1,19 @@
+/* Text-align (Apply on Relative to Parent)  */
+h1{
+    /* text-align: right; */
+    /* border: solid;
+    width: 50%; */
+    text-align: center;
+}
+
+h3{
+    text-align: end;
+}
+
+p{
+    text-align: end;
+}
+
+p{
+    text-align: justify;
+}
