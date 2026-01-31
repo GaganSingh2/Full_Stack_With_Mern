@@ -47,3 +47,37 @@ h3{
 a{
     text-decoration: none; /*Remove the underline in link*/
 }
+
+/* Line-height (defaultvalue=normal) if we write 2 means (normal height*2) (it give the space between two paragraph line)*/
+
+p{
+    line-height: normal;
+    line-height: 2; /*(normal * normal)*/
+    line-height: 5; /*(normal * normal * normal * normal * normal) */
+    line-height: 0.5; /* (normal % 2)*/
+    line-height: normal;
+}
+
+/* Letter-Spacing (gives the space between to letter)*/
+h1{
+    letter-spacing: normal;
+    letter-spacing: 2px;
+    letter-spacing: 5px;
+    letter-spacing: 10px;
+    letter-spacing: normal;
+    
+}
+
+/* Font-Size */
+p{
+    font-size: 15px;
+    font-size: large;
+    font-size: larger;
+    font-size: medium;
+    font-size: small;
+    font-size: x-large;
+    font-size: x-small;
+    font-size: xx-large;
+    font-size: xx-small;
+    font-size: 20px;
+}
