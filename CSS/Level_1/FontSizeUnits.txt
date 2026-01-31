@@ -1,0 +1,17 @@
+Font-Size Units in Css
+Absolute(Fixed)-------------------------
+1)px (96px = 1in)
+2)pt
+3)pc (1pc = 12pt)
+4)cm
+5)mm
+6)in (1in = 96px) (1in = 72pt)
+
+
+Relative(Relative to Parant)---------------------------
+1)%
+2)em
+3)rem
+4)ch
+5)vh
+6)vw + many more
