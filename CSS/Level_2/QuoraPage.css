@@ -1,5 +1,14 @@
 /* Types of Selectors------------- */
 /* 1) Universal Selectors(*): what ever style we written in this selecotrs its apply on whole page */
 *{
-    background-color: aqua; 
+    /* background-color: aqua;  */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 2) Element Selector: what ever style we written in this selecotrs its apply on only those selectors like h3, p, h1 etc.. */
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
 }
