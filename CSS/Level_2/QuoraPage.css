@@ -22,3 +22,8 @@ h1{
     background-color: #b92b27;
     color: white;
 }
+
+/* 4) Class Selectors: Selects an element based on their class attribute. we can give same classname for multiple tags*/
+.upvote{
+    background-color: green;
+}
