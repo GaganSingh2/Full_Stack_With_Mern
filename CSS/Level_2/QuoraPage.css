@@ -1,0 +1,5 @@
+/* Types of Selectors------------- */
+/* 1) Universal Selectors(*): what ever style we written in this selecotrs its apply on whole page */
+*{
+    background-color: aqua; 
+}
