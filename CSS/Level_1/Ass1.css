@@ -1,0 +1,39 @@
+/* Q3 & Q5 */
+body{
+    text-align: center;
+    font-family: Georgia;
+}
+/* Q2 & Q9 */
+p{
+    color: #a52a2a;
+    line-height: 30px;
+}
+
+/* Q4 */
+h1{
+    color: red;
+}
+/* Q4 */
+h3{
+    color: black;
+}
+/* Q6587+ */
+a{
+    color: #008000;
+    text-decoration: none;
+}
+
+/* Q7 */
+button{
+    background-color: white;
+    color: blueviolet;
+}
+/* Q8 */
+textarea{
+    color: #000000;
+}
+
+/* Q10 */
+span{
+    text-decoration: underline teal;
+}
