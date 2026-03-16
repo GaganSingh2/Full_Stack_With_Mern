@@ -1,0 +1,8 @@
+#myId p{
+    color: blueviolet;
+}
+
+div[id="myId"] p{
+    background-color: aqua;
+}
+/* Both are same */
