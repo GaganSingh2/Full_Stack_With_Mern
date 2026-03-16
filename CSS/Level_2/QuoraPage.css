@@ -27,3 +27,10 @@ h1{
 .upvote{
     background-color: green;
 }
+
+
+/* Descendant Selector: Target all children, grandchildren, great-grandchildren etc of an element. using space( )like: parentTag childTag{} */
+
+p a{
+    color: purple;
+}
