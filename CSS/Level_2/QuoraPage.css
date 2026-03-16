@@ -29,8 +29,43 @@ h1{
 }
 
 
-/* Descendant Selector: Target all children, grandchildren, great-grandchildren etc of an element. using space( )like: parentTag childTag{} */
+/* Descendant Selector: Target all children, grandchildren, great-grandchildren etc of an element. using space( )like: parentTag childTag{} (childtag pe property apply hoga)*/
 
 p a{
     color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: pink;
+}
+
+
+/*Adjacent Sibiling Selector: using + operator, target the element immediatly immediate right to a specified element like brother and sister, used brother + sister (p{}h3{})*/
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+}
+
+
+/* Child Selector:using (>), Targets only direct children, no Descendent, like div{input{}} */
+div > input{
+    background-color: fuchsia;
+}
+
+
+/* Attribute Selector: select element based on the presence or value of a given attribute */
+input[type="text"]{ /* if type is text then set color is blue*/
+    color: blue;
+}
+
+input[type="password"]{ /* if type is password then set color is green*/
+    color: green;
+}
+
+input[type]{ /*if any input tag had type attribute then set background color is ghostwhite*/
+    background-color: ghostwhite;
 }
