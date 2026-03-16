@@ -29,6 +29,7 @@ h1{
 }
 
 
+/* Types of Combinators----------- */
 /* Descendant Selector: Target all children, grandchildren, great-grandchildren etc of an element. using space( )like: parentTag childTag{} (childtag pe property apply hoga)*/
 
 p a{
@@ -68,4 +69,37 @@ input[type="password"]{ /* if type is password then set color is green*/
 
 input[type]{ /*if any input tag had type attribute then set background color is ghostwhite*/
     background-color: ghostwhite;
+}
+
+
+/* Types of Pseudo Class */
+/* 1) :hover (some times if we already set some properties by using id selector and we trying to perform hover operation so this hover properties are not applied on it) */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* 2):active =>its change the properties when we clicked on itsome times if we already set some properties by using id selector and we trying to perform hover operation so this hover properties are not applied on it)*/
+button:active{
+    background-color: hotpink;
+    color: blue;
+}
+
+p:active{
+    color: springgreen;
+}
+
+
+/*:checked =>applies styple to input element that are checked(such as checkboxes or radio buttons)  */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+
+/* :nth-of-type(int value) =>targets the nth child of a specific type */
+div:nth-of-type(2n){ /*but if we write like 2n so it apply properties on every 2nd given tag*/
+    background-color: yellow;
+}
+div:nth-of-type(3){ /*here if i pass simple 1,2.. so it count from start and apply the property on given number position*/
+    background-color: yellow;
 }

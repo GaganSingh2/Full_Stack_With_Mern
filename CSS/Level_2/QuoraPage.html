@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quora Page</title>
     <link rel="stylesheet" href="QuoraPage.css">
 </head>
+
 <body>
     <header>
         <h1>Quora
@@ -28,49 +30,64 @@
     </header>
 
     <main>
-        <p>
-            Adam &nbsp;&nbsp;
-            <a class="follow" href="/adam">Follow /abc</a>
-        </p>
-        <h3>What is the highest salary for a spacex engineer?</h3>
-        <span>
-            <button class="upvote">+upvote</button>
-            <button>answer</button>
-        </span>
-        <hr>
+        <div>
+            <p class="post">
+                Adam &nbsp;&nbsp;
+                <a class="follow" href="/adam">Follow /abc</a>
+            </p>
+            <h3>What is the highest salary for a spacex engineer?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr>
+        </div>
 
-        <p>
-            Bob &nbsp;&nbsp;
-            <a class="follow" href="/bob">Follow /xyz</a>
+        <div>
+            <p class="post">
+                Bob &nbsp;&nbsp;
+                <a class="follow" href="/bob">Follow /xyz</a>
+            </p>
             <h3>What is the syllabus for JEE 2026?</h3>
             <span>
                 <button class="upvote">+upvote</button>
                 <button>answer</button>
             </span>
             <hr>
-        </p>
+        </div>
 
-        <p>
-            Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="follow" href="/catlyn">Follow /pqr</a>
+        <div>
+            <p class="post">
+                Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="follow" href="/catlyn">Follow /pqr</a>
+            </p>
             <h3>Why is the sky blue?</h3>
             <span>
                 <button class="upvote">+upvote</button>
                 <button>answer</button>
             </span>
             <hr>
-        </p>
+        </div>
 
-        <p>
-            Dan &nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="follow" href="/dan">Follow /jkl</a>
+        <div>
+            <p class="post">
+                Dan &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="follow" href="/dan">Follow /jkl</a>
+            </p>
             <h3>Why is the water white?</h3>
             <span>
                 <button class="upvote">+upvote</button>
                 <button>answer</button>
             </span>
             <hr>
-        </p>
+        </div>
     </main>
+    <div>
+        <input type="radio" name="agree" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="agree" id="no" value="no">
+        <label for="no">No</label>
+    </div>
 </body>
+
 </html>
