@@ -72,7 +72,7 @@ input[type]{ /*if any input tag had type attribute then set background color is 
 }
 
 
-/* Types of Pseudo Class */
+/* Types of Pseudo Class------------------------ */
 /* 1) :hover (some times if we already set some properties by using id selector and we trying to perform hover operation so this hover properties are not applied on it) */
 button:hover{
     background-color: black;
@@ -86,7 +86,8 @@ button:active{
 }
 
 p:active{
-    color: springgreen;
+    color: darkgreen;
+    font-size: larger;
 }
 
 
@@ -102,4 +103,36 @@ div:nth-of-type(2n){ /*but if we write like 2n so it apply properties on every 2
 }
 div:nth-of-type(3){ /*here if i pass simple 1,2.. so it count from start and apply the property on given number position*/
     background-color: yellow;
+}
+
+
+/* TYpes of  Pseudo Elements-----------------------*/
+/* A keyword added to a selector that lets u sytle a specifi part of the selected elements */
+
+/* 1)::first-letter =>apply the property on first letter of selected element */
+h1::first-letter{
+    color: darkgreen;
+    font-size: larger;
+}
+/* this property can't affect on first-letter of h1 */
+/* h1:hover{ 
+    color: black;
+} */
+
+
+/* 2)::first-line =>apply the property on the first line of the selected element*/
+p::first-line{
+    color: blue;
+    font-size: larger;
+} 
+
+
+/* 3)::selection =>apply the property on the selected part on the select element */
+p::selection{
+    color: darkorchid;
+    font-size: larger;
+    background-color: aqua;
+}
+h1:hover{
+    cursor: pointer;
 }
