@@ -104,7 +104,9 @@ div:nth-of-type(2n){ /*but if we write like 2n so it apply properties on every 2
 div:nth-of-type(3){ /*here if i pass simple 1,2.. so it count from start and apply the property on given number position*/
     background-color: yellow;
 }
-
+h1:hover{
+    cursor: pointer;
+}
 
 /* TYpes of  Pseudo Elements-----------------------*/
 /* A keyword added to a selector that lets u sytle a specifi part of the selected elements */
@@ -133,6 +135,45 @@ p::selection{
     font-size: larger;
     background-color: aqua;
 }
-h1:hover{
-    cursor: pointer;
+
+/* Note: if i used attribute as user-select: none; then it will turn off the selection if u select the text content it won't be visible as selection means selection property not apply */
+.post{
+    user-select: none;
 }
+
+/* 4)::spelling-error => A portion of text that the browser thinks is misspelled.*/
+p::spelling-error{
+    text-decoration: wavy red underline;
+}
+
+/* 5)::before => apply the property just before to the selected element*/
+.nav::before{
+    content: "🔗";
+}
+
+
+/* 6)::after => apply the property just after to the selected element*/
+h3::after{
+    content: "✔️";
+}
+
+
+/* 7)::marker =>change the bullet points symbols using marker, here we can pass any text content or any emoji */
+/* Change the bullet color black to red */
+ul li::marker{
+    color: red;
+    font-size: large;
+}
+/* also replace the bullet points with emoji */
+ul li::marker{
+    content: "🥹";
+}
+
+
+/* 8)::placeholder => change the style of the placeholder of input element*/
+div > input::placeholder{
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+}
+
