@@ -1,0 +1,15 @@
+div{
+    background-color: yellow;
+}
+form{
+    background-color: red;
+}
+
+/* some tags like input and buttons are not inherits properties from the parent tags so for this we inherits*/
+input{
+    background-color: inherit; /*after this background-color property inherits from the parent tag in the input*/
+}
+
+button{
+    background-color: inherit; /*after this background-color property inherits from the parent tag in the buttons*/
+}
