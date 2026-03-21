@@ -8,3 +8,8 @@ div{
 }
 
 /* inline-block: apply all the style on the element according to the block element but its behave like a Inline element */
+
+/* hide the element by using none */
+#third{
+    display: none;
+}
