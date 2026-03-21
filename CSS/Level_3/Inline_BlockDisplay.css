@@ -1,0 +1,34 @@
+/*all heading by default block but here we make the heading as inline means it take only content space */
+/* h2{
+    display: inline; 
+    background-color: aqua;
+} */
+
+/* span is by default inline but here wee make the span as block means content take whole line as a space */
+/* span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+
+
+
+/*Inline element: not apply all the property like height, widht, padding-top, padding-bottom, margin-top, margin-bottom*/
+span{
+    /* background-color: aqua; */
+    border: 2px solid black;
+    height: 100px; /*Not implement ignore*/
+    width: 100px; /*Not implement ignore*/
+    padding: 50px; /*padding applicable only in left and right*/
+    margin: 50px; /*margin applicable only in left and right*/
+}
+
+/* Block element: apply all the property */
+div{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 100px; 
+    width: 100px; 
+    padding: 50px; 
+    margin: 50px;
+}
