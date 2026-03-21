@@ -7,13 +7,25 @@ div{
     width: 500px;
 
     border: 5px solid black;
-    border-left-color: blue;
+    /* border-left-color: blue;
     border-left-style: dashed;
-    border-top: 5px double red;
+    border-top: 5px double red; */
 
-    
+    border-radius: 20px;
+    border-top-right-radius: 50px;
+
+    /* padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px; */
+    /* padding: 50px 50px; */ /*top & bottom | left & right*/
+    padding: 20px;
 }
 
 button{
-    border-radius: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 20px;
+    background-color: yellow;
 }
