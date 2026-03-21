@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* inline-block: apply all the style on the element according to the block element but its behave like a Inline element */
