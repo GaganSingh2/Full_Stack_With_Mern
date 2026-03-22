@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector have Lowest Specificity */
+        p{
+            color: blue;
+            background-color: aqua;
+        }
+        /*class selector have Higher Specificity compare than Element Selector */
+        .myClass{
+            color: blueviolet;
+            background-color: burlywood;
+        }
+
+        /* Id selector have  most Higher Specificity compare than Class and Element Selector*/
+        #myId{
+            color: red;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p id="myId" class="myClass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sapiente veniam cum, reprehenderit maiores omnis in sequi repellat autem minus sint est? Excepturi aliquid explicabo quisquam quia vero expedita suscipit?</p>
+</body>
+</html>
+
+<!-- 
+Specificity: if there are 2 or more CSS rules that point to the same element, the selector with the Highest Specificity will win and its style declaration will be applied to that HTML element.
+
+Specificity determines which CSS rule is applied when multiple rules target the same element.
+
+Hierarchy of Specificity
+Id Selector > Class Selector > Element Selector
+
+NOTE: but if we use !important then it will not change by any selector.
+ -->
