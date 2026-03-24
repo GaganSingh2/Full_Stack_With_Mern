@@ -1,0 +1,16 @@
+/* In rgba()
+a: Alpha Value (0 to 1)
+ 0 = Not-visible (hidden)
+ 1 = Complete-visible
+ */
+ /* In hexadecimal using #
+at the end of color combinataion we can use
+ 00 = Not-visible (hidden)
+ff = Complete-visible
+ */
+div{
+    width: 200px;
+    height: 200px;
+    /* background-color: rgba(255, 0, 0,0); */
+    background-color: #ffaa00;
+}
