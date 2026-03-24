@@ -1,3 +1,5 @@
+ /* Alpha Channel: it is used to set the visibility of the color of element */
+
 /* In rgba()
 a: Alpha Value (0 to 1)
  0 = Not-visible (hidden)
@@ -8,9 +10,25 @@ at the end of color combinataion we can use
  00 = Not-visible (hidden)
 ff = Complete-visible
  */
-div{
+
+#alpha{
     width: 200px;
     height: 200px;
     /* background-color: rgba(255, 0, 0,0); */
-    background-color: #ffaa00;
+    background-color: #4dff00ff;
 }
+
+/* Opacity: it is used to set the visibility of the element.(0 to 1)
+0 = Not-visible(hidden)
+1 = Complete-visible
+ */
+
+#opacity{
+    width: 200px;
+    height: 200px;
+    background-color: #ffa511;
+    opacity: 0.3;
+}
+
+/* using Alpha Channel: if we give alpha value as 0 then color is not visible but element present in this tag are visible */
+/* but Using Opacity: if we give opacity as 0 then color as well present elements both are not visible means both are hidden */
