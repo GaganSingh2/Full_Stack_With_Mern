@@ -1,0 +1,9 @@
+/* box-shadow: x-axis offset, y-axis offset, blur-radius blur-color*/
+div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: gray;
+    margin: 50px auto;
+    box-shadow: 5px 10px 15px green;
+}
